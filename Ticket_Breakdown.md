@@ -96,11 +96,12 @@ Facilities require a user interface (UI) to manage and save the `custom_facility
 
 ##### Description
 
-When facilities submit their reports, we need to enhance the report submission process to include the agent's `custom_facility_id`.
+In order to improve the report submission process, we need to enhance it to include or select the `custom_facility_id` for each agent. This will allow facilities to enter their own `custom_facility_id` when submitting reports.
 
 ##### Acceptance criteria:
 
-- Update the report submission process to include the `custom_facility_id` field for each agent in the submitted data.
+- Update the report submission process to allow facilities to enter the agent's data using its `custom_facility_id`.
+- Include the `custom_facility_id` field for each agent in the submitted data.
 - Ensure the `custom_facility_id` is associated correctly with the respective agent's data during the submission process.
 
 ##### Implementation details:
